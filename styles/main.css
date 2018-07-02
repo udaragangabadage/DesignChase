@@ -89,7 +89,12 @@ nav a span{
 
 /*----------header----------*/
 
-
+header{
+    height: 1000px;
+    min-height: 1000px;
+    padding: 0 5%;
+    background-image: url(images/backgrounds/mobile_background_header.png)
+}
 
 
 
