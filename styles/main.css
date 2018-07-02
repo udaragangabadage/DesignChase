@@ -1,0 +1,135 @@
+/*----------Global----------*/
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html{
+    font-family: Avenir;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #2B9DFF;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.btnOutline{
+    display: block;
+    text-decoration: none;
+    color: #2B9DFF;
+    border: 2px solid #2B9DFF;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btnFilled{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: #2B9DFF;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*----------nav----------*/
+
+nav{
+    line-height: 150px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #202427;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a:first-child{
+    float: left;
+}
+
+nav a img {
+    vertical-align: middle;
+}
+
+nav a span{
+    background-color: #2B9DFF;
+    padding: 2px 15px;
+    border-radius: 60px;
+    font-weight: 100;
+    color: white;
+    margin-left: 7px;
+}
+
+/*----------header----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
