@@ -91,13 +91,13 @@ nav a span{
 /*----------header----------*/
 
 header{
-    position: sticky;
+/*    position: sticky;*/
     height: 1000px;
     min-height: 1000px;
     padding: 0 5%;
     background-image: url(../images/backgrounds/background_header.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: top right;
     display: block;
 }
@@ -113,7 +113,7 @@ header h1 {
     margin: 2em 0 3em 0;
     padding: 0 5%;
     background-image: url(../images/backgrounds/background_team.png);
-    background-size: 200px;
+    background-size: 2000px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -211,6 +211,94 @@ footer p, .footerPages{
     color: #2B9DFF;
     margin-left: 30px;
 }
+
+
+/*----------Responsive----------*/
+/*----------tablet----------*/
+
+@media only screen and (max-width:1000px){
+    
+    header{
+        height: 1600px;
+        min-height: 1600px;
+        background-image: url(../images/backgrounds/mobile_background_header.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
+        display: block;
+    }
+    
+    header h1{
+        width: 100%;
+    }
+    
+    .team{
+        margin: 3em 0 3em 0;
+        background-image: url(../images/backgrounds/mobile_background_team.png);
+        background-size: 2000px;
+        background-position: center;
+    }
+    
+    .team h1{
+        width: 100%;
+    }
+    
+    .about{
+        background-image: url(../images/backgrounds/mobile_background_about.png);
+        background-size: 80%;
+        height: 900px;
+        min-height: 900px;
+        overflow: visible;
+    }
+    
+    .about h1{
+        padding-top: 1000px;
+    }
+    
+    .about h1, .icons{
+        margin-left: 0;
+    }
+    
+    .callToAction{
+        margin-top: 25em;
+        padding: 16em 5% 15em 5%;
+        
+    }
+    
+    .callToAction h1, .callToAction a {
+        margin-bottom: 30px;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    .footerPages{
+        visibility: hidden;
+    }
+    
+    footer p, .footerPages{
+        display: block;
+    }
+    
+}
+
+
+/*--------mobile--------*/
+@media only screen and (max-width:600px){
+    header{
+        height: 1300px;
+        min-height: 1300px;
+    } 
+}
+
+
+
+
+
+
+
+
 
 
 
