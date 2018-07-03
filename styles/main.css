@@ -294,7 +294,12 @@ footer p, .footerPages{
         margin: 1em 0 0 0 ;
     }
     
-    .about h1{}
+    .about h1{
+        padding-top: 800px;
+    }
+    .members{
+        flex-direction: column;
+    }
 }
 
 
