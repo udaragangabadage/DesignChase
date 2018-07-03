@@ -1,4 +1,4 @@
-# DesignChaser
+# DesignChase
 Simple UI Design for Graphic Elements Providing Company.
 
 ###### Desktop View
