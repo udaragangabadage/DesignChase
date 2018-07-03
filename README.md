@@ -1,5 +1,5 @@
 # DesignChase
-Simple UI Design for Graphic Elements Providing Company.
+Simple Responsive UI Design for Graphic Elements Providing Company.
 
 ###### Desktop View
 <p align="center">
