@@ -290,6 +290,11 @@ footer p, .footerPages{
         height: 1300px;
         min-height: 1300px;
     } 
+    header h1{
+        margin: 1em 0 0 0 ;
+    }
+    
+    .about h1{}
 }
 
 
